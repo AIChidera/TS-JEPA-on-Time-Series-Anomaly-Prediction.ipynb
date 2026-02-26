@@ -15,6 +15,7 @@ I used the typical TS-JEPA architecture, consisting of the following main compon
 - *Predictor:* Generates the target predictions from the encoder’s output.
 - *EMA-Encoder:* Encodes the target masked patches.
 - *VICReg Loss function:* Regularizer to prevent latent collapse
+
 _Note: The Encoders and Predictor all utilizes a Transformer Backbone._
 
 ## 4. Dataset
